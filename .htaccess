@@ -3,7 +3,7 @@ AddType application/javascript .js
 AddType text/css .css
 AddType application/json .json
 AddType text/html .html
-
+# 
 # 启用Gzip压缩
 <IfModule mod_deflate.c>
     AddOutputFilterByType DEFLATE text/plain
