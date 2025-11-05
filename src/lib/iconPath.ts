@@ -8,10 +8,10 @@ const getBasePath = (): string => {
   if (typeof window !== 'undefined') {
     const isLocalhost =
       window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-    return isLocalhost ? '' : '/jiang_ai_web';
+    return isLocalhost ? '' : '/yaocy_ai_web';
   }
   // 服务端或其他环境
-  return process.env.NODE_ENV === 'production' ? '/jiang_ai_web' : '';
+  return process.env.NODE_ENV === 'production' ? '/yaocy_ai_web' : '';
 };
 
 /**

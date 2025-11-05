@@ -313,14 +313,14 @@ export default function Home({ websites, setWebsites, dataInitialized = true }: 
         <div className={`${classes.searchContainer} relative`} id="main-content">
           {/* SEO H1 标签 - 视觉上隐藏但对搜索引擎可见 */}
           <h1 className="sr-only">
-            你好呀，这里是一个AI友好的个性化便签页面，创作者：江江 和 claude coze kiro coplit
-            页面美观好用，有诸多彩蛋（**新标签页**，**new tab**,**AI tab**,**notion
-            tab**,**个性化**，**标签页**）
+            姚的标签页 - 一个现代化的个人网站导航应用，集成了智能壁纸、云端同步、拖拽排序等功能
+            (**新标签页**，**new tab**,**AI tab**,**notion
+            tab**,**个性化**，**标签页**)
           </h1>
           {/* SEO 描述段落 - 视觉上隐藏但对搜索引擎可见 */}
           <p className="sr-only">
-            这是一个由江江创作的个性化便签页面，结合了 Claude、Coze、Kiro、Copilot 等AI工具的协助。
-            页面设计美观实用，包含多个有趣的彩蛋功能，为用户提供优质的书签管理体验。
+            这是一个功能完善的个性化书签管理工具，提供智能搜索、拖拽排序、云端同步等现代化功能。
+            页面设计美观实用，为用户提供优质的书签管理体验。
           </p>
           {/* 时间组件始终渲染，通过透明度控制显示，避免影响布局 */}
           <TimeDisplay />

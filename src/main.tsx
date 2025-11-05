@@ -8,9 +8,9 @@ import './index.css';
 // 初始化统一清理管理器
 import './lib/unifiedCleanupManager';
 
-// 检查当前路径是否包含 /jiang_ai_web/
-const hasBasePath = window.location.pathname.startsWith('/jiang_ai_web');
-const basename = hasBasePath ? '/jiang_ai_web' : undefined;
+// 检查当前路径是否包含 /yaocy_ai_web/
+const hasBasePath = window.location.pathname.startsWith('/yaocy_ai_web');
+const basename = hasBasePath ? '/yaocy_ai_web' : undefined;
 
 // 简化日志输出
 

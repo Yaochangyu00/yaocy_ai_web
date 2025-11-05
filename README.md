@@ -1,8 +1,8 @@
-# 江的标签页
+# 姚的标签页
 
 一个现代化的个人网站导航应用，集成了智能壁纸、云端同步、拖拽排序等功能。
 
-[**在线访问**](https://jiangjiangjiang.top) | [**项目地址**](https://github.com/jiangjianghong/jiang_ai_web)
+[**在线访问**](https://yaochangyu00.github.io/yaocy_ai_web/) | [**项目地址**](https://github.com/yaochangyu00/yaocy_ai_web)
 
 ## ✨ 核心特性
 
@@ -68,8 +68,8 @@
 ## 🏗️ 项目架构
 
 ```
-jiang_ai_web/
-├── public/                     # 静态资源
+yaocy_ai_web/
+├─�� public/                     # 静态资源
 │   ├── icon/                   # 应用图标
 │   ├── manifest.json          # PWA 配置
 │   └── sw.js                   # Service Worker
@@ -327,8 +327,8 @@ pnpm test:e2e
 
 1. **Fork 项目**
 ```bash
-git clone https://github.com/your-username/jiang_ai_web.git
-cd jiang_ai_web
+git clone https://github.com/your-username/yaocy_ai_web.git
+cd yaocy_ai_web
 ```
 
 2. **创建功能分支**
@@ -490,7 +490,7 @@ VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 # 应用配置
-VITE_APP_NAME=江的标签页
+VITE_APP_NAME=姚的标签页
 VITE_APP_VERSION=1.0.0
 ```
 
@@ -527,10 +527,10 @@ VITE_APP_VERSION=1.0.0
 
 ## 📞 联系方式
 
-- **项目地址**: [GitHub](https://github.com/jiangjianghong/jiang_ai_web)
-- **问题反馈**: [Issues](https://github.com/jiangjianghong/jiang_ai_web/issues)
-- **在线访问**: [jiangjiangjiang.top](https://jiangjiangjiang.top)
+- **项目地址**: [GitHub](https://github.com/yaochangyu00/yaocy_ai_web)
+- **问题反馈**: [Issues](https://github.com/yaochangyu00/yaocy_ai_web/issues)
+- **在线访问**: [yaochangyu00.github.io/yaocy_ai_web](https://yaochangyu00.github.io/yaocy_ai_web/)
 
 ---
 
-**江的标签页** - 让网站管理更简单、更智能 🚀
+**姚的标签页** - 让网站管理更简单、更智能 🚀
