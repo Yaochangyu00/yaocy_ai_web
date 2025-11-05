@@ -32,8 +32,8 @@ function getPlugins() {
 }
 
 export default defineConfig({
-  // 运行在基础端口上，不使用子目录
-  base: '/',
+  // GitHub Pages 部署需要配置仓库名作为 base path
+  base: process.env.NODE_ENV === 'production' ? '/yaocy_ai_web/' : '/',
   plugins: getPlugins(),
   
   // 构建优化配置
