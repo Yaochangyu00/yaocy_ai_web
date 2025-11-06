@@ -71,8 +71,16 @@ export function UserProfileProvider({ children }: UserProfileProviderProps) {
           if (profile) {
             setUserProfile(profile);
           } else {
-            // 仅首次注册时创建 profile，之后不再 fallback
-            const defaultName = currentUser.email?.split('@')[0] || '用户';
+            // 首次注册时创建 profile
+            // 优先使用注册时保存的用户名，如果没有则使用邮箱前缀
+            const pendingName = localStorage.getItem('pendingDisplayName');
+            const defaultName = pendingName || currentUser.email?.split('@')[0] || '用户';
+
+            // 清除临时保存的用户名
+            if (pendingName) {
+              localStorage.removeItem('pendingDisplayName');
+            }
+
             await saveUserProfile(currentUser, defaultName);
             const newProfile = await getUserProfile(currentUser);
             setUserProfile(newProfile);

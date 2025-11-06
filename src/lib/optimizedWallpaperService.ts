@@ -21,7 +21,7 @@ class OptimizedWallpaperService {
       needsUpdate: boolean;
     }>
   >();
-  private fallbackImage = '/icon/favicon.png'; // 本地备用图片
+  private fallbackImage = `${import.meta.env.BASE_URL}icon/favicon.png`; // 本地备用图片
   private cleanupTimer: number | null = null; // 定时清理器ID
 
   static getInstance(): OptimizedWallpaperService {
